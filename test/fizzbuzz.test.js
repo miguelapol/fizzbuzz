@@ -1,8 +1,8 @@
 const fizzbuzz = require('./../lib/services/FizzbuzzService');
 describe("Pruebas de unidad", function() {
     test("Fizzbuzz of explorers", function() {
-        const input=[{id:3,score: 15}];
-        const out=[{id:3, score: 15, trick: "FIZZ"}];
+        const input={name:'apol',score: 1};
+        const out={name:'apol',score:1,trick:1};
         expect(fizzbuzz.applyValidationInExplorer(input)).toEqual(out);
         
     });
