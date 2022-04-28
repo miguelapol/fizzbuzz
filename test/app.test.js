@@ -13,7 +13,7 @@ describe('Pruebas de unidad', function() {
     });
     test('Amount by mission', function() {
         const input=[{id:3,mission: "node"}];
-        expect(ExplorerService.getAmountOfExplorerByMission(input, "java")).toBe(1);        
+        expect(ExplorerService.getAmountOfExplorerByMission(input, "node")).toBe(1);        
     });
     test('User name', function() {
         const input=[{githubUsername: "apol"}];
