@@ -9,7 +9,7 @@ describe("Pruebas de unidad", function() {
         expect(controller.getExplorersByMission("node")).toEqual(out);
     });
     test("controllers explorers Usernameby Mission", function() {
-        const out=["ap "];
+        const out=["apol"];
         expect(controller.getExplorerUsernameByMission("node")).toEqual(out);
     });
 });
