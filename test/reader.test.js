@@ -1,5 +1,5 @@
 const reader=require("./../lib/utils/Reader");
-const explorers=reader.readJSONFile("./app/explorers.json");
+const explorers=reader.readJSONFile("./data/pruebadata.json");
 
 
 describe("Pruebas de unidad", function() {
