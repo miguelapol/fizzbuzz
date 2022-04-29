@@ -12,4 +12,8 @@ describe("Pruebas de unidad", function() {
         const out=["apol"];
         expect(controller.getExplorerUsernameByMission("node")).toEqual(out);
     });
+    test("controllers fizzbuzz", function() {
+        const out="FIZZ";
+        expect(controller.fizzbuzz(3)).toEqual(out);
+    });
 });
