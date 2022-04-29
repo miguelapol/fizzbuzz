@@ -6,4 +6,9 @@ describe("Pruebas de unidad", function() {
         expect(fizzbuzz.applyValidationInExplorer(input)).toEqual(out);
         
     });
+    test("Fizzbuzz number", function() {
+        const out="FIZZ";
+        expect(fizzbuzz.applyValidationInNumber(3)).toEqual(out);
+        
+    });
 });
