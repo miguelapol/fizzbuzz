@@ -23,4 +23,13 @@ describe("Pruebas de unidad", function() {
         expect(explorersInNode).toEqual(out);
         
     });
+    //aqui filtramos por stacks el explorer service
+    test("Filters by stacks", function() {
+        const input=[{id:3,mission: "node",stacks:["node","react"]}];
+        const out=[{id:3,mission: "node",stacks:["node","react"]}];
+        const explorersInNode=ExplorerService.filterbyStack(input,"node");
+        expect(explorersInNode).toEqual(out);
+        
+    })
+    
 });

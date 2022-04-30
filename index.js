@@ -25,3 +25,4 @@ console.log(FizzbuzzService.applyValidationInExplorer(explorer3));
 const explorer4 = {name: "Explorer4", score: 15};
 
 console.log(FizzbuzzService.applyValidationInExplorer(explorer4));
+
