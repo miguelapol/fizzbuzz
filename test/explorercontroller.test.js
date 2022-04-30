@@ -16,4 +16,8 @@ describe("Pruebas de unidad", function() {
         const out="FIZZ";
         expect(controller.fizzbuzz(3)).toEqual(out);
     });
+    test("controllers stacks", function() {
+        const out=[{githubUsername:"apol",score:1,mission:"node",stacks:["javascript","reasonML","elm"]}];
+        expect(controller.Stacks("node")).toEqual(out);
+    })
 });
