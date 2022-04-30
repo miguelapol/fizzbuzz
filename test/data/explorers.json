@@ -2,6 +2,11 @@
   {
     "githubUsername": "apol",
     "score": 1,
-    "mission": "node"
+    "mission": "node",
+    "stacks": [
+      "javascript",
+      "reasonML",
+      "elm"
+    ]
   }
-  ] 
+] 
