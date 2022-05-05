@@ -16,7 +16,7 @@ describe("Pruebas de unidad", function() {
         expect(ExplorerService.getAmountOfExplorerByMission(input, "node")).toBe(1);        
     });
     test("User name", function() {
-        const input=[{githubUsername: "apol"}];
+        const input=[{name: "apol"}];
         const out=["apol"];
         const explorersInNode=ExplorerService.getExplorerUsernameByMission(input);
         //hacer un expect para que me duelva un valor de un array
